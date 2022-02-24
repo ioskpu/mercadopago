@@ -3,7 +3,7 @@
 require __DIR__  . '/vendor/autoload.php';
 
 //REPLACE WITH YOUR ACCESS TOKEN AVAILABLE IN: https://developers.mercadopago.com/panel/credentials
-MercadoPago\SDK::setAccessToken("YOUR_ACCESS_TOKEN");
+MercadoPago\SDK::setAccessToken("TEST-8387959942845878-022419-3f8fafbc8c0181f82f6205d81fe5fc6b-170353676");
 
 $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
